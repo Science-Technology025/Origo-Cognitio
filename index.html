@@ -3,35 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página de Divulgación Científica</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header { background: #0077b6; color: white; padding: 20px; text-align: center; }
-    nav { background: #023e8a; padding: 10px; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    section { padding: 20px; }
-    footer { background: #222; color: white; padding: 10px; text-align: center; }
-  </style>
+  <title>Origo Cognitio</title>
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+  <!-- Encabezado -->
   <header>
-    <h1>Divulgación Científica</h1>
-    <p>Artículos, concursos y recursos gratuitos</p>
+    <img src="img/logo.png" alt="Logo Origo Cognitio" class="logo">
+    <h1>Origo Cognitio</h1>
+    <p>El origen del conocimiento: ciencia, concursos y recursos para todos</p>
   </header>
+
+  <!-- Navegación -->
   <nav>
-    <a href="#">Inicio</a>
-    <a href="#">Artículos</a>
-    <a href="#">Concursos</a>
-    <a href="#">Recursos</a>
-    <a href="#">Autores</a>
-    <a href="#">Contacto</a>
+    <a href="index.html">Inicio</a>
+    <a href="articulos.html">Artículos</a>
+    <a href="concursos.html">Concursos</a>
+    <a href="recursos.html">Recursos</a>
+    <a href="autores.html">Autores</a>
+    <a href="contacto.html">Contacto</a>
   </nav>
-  <section>
-    <h2>Bienvenidos</h2>
-    <p>Este es el inicio de nuestra plataforma de divulgación científica.</p>
+
+  <!-- Sección principal -->
+  <section class="bienvenida">
+    <h2>Bienvenidos a Origo Cognitio</h2>
+    <p>Un espacio de <strong>divulgación científica</strong> donde encontrarás artículos, participarás en concursos de fotografía y video, y podrás descargar recursos académicos y educativos.</p>
   </section>
+
+  <!-- Bloques destacados -->
+  <section class="destacados">
+    <div class="card">
+      <h3>📖 Artículos</h3>
+      <p>Explora publicaciones científicas en diferentes formatos.</p>
+      <a href="articulos.html" class="btn">Ver artículos</a>
+    </div>
+    <div class="card">
+      <h3>📸 Concursos</h3>
+      <p>Participa en concursos de fotografía y video científico.</p>
+      <a href="concursos.html" class="btn">Ver concursos</a>
+    </div>
+    <div class="card">
+      <h3>📂 Recursos</h3>
+      <p>Descarga materiales educativos y de divulgación.</p>
+      <a href="recursos.html" class="btn">Ver recursos</a>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
   <footer>
-    <p>© 2025 - Origo Cognitio</p>
+    <p>© 2025 - Origo Cognitio | Creado con ❤️ en GitHub Pages</p>
   </footer>
 </body>
 </html>
